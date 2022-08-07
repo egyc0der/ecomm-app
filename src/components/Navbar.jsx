@@ -51,12 +51,12 @@ const Center = styled.div`
 
 const Logo = styled.h1`
   font-weight: bold;
-  ${mobile({ fontSize: "24px" })}
+ 
 `;
 
 const Image = styled.img`
-
-`
+	${mobile({ display: "none" })}
+`;
 
 const Right = styled.div`
   flex: 1;
